@@ -251,14 +251,6 @@ static  char data [] =
 
 #if HARDENING
 static const char * shc_x[] = {
-"/*",
-" * DUA TIGA TUTUP BOTOL",
-" * KANG REKOD MUKA LU KEK KONTOL",
-" * AWOKAWOK REKOD MULU LU ANYING!",
-" * GAK MAMPU BUAT SCRIPT SENDIRI HAH?",
-" * MINIMAL BUAT SCRIPT SENDIRI LAH ANYING",
-" */",
-"",
 "#define _GNU_SOURCE /* needed to get RTLD_NEXT defined in dlfcn.h */",
 "#define PLACEHOLDER \"********\"",
 "#include <dlfcn.h>",
